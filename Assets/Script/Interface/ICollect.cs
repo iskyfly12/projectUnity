@@ -1,8 +1,8 @@
 ﻿public interface ICollect
 {
-    void GetLife();
+    void GetExtraLife(int amount);
 
-    void GetExtraMove();
+    void GetExtraMove(int amount);
 
-    void GetAttack();
+    void GetExtraAttack(int amount);
 }
